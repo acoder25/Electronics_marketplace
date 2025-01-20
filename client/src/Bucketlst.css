@@ -1,0 +1,78 @@
+.head {
+  background-color: black;
+  color: wheat;
+  height: 10vh;
+  font-family: 'Pacifico', cursive;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  letter-spacing: 2px; 
+}
+.center{
+  height:80vh;
+}
+
+.add{
+  float:right;
+}
+.add i {
+  font-size: 8rem;
+  margin-right: 2rem; 
+  color: black; 
+}
+.item-list {
+  width:600px;
+  float:left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between items */
+  padding: 20px;
+}
+
+.item {
+  width:80%;
+  height:150px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd; /* Light boundary */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #fff;
+}
+
+.item:hover {
+  border-color: #aaa; /* Slightly darker border on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.item-image {
+  width: 100px; /* Fixed image width */
+  height: 100px; /* Fixed image height */
+  object-fit: cover; /* Maintain aspect ratio and crop if needed */
+  border-radius: 8px; /* Rounded corners for the image */
+  margin-right: 15px; /* Space between image and details */
+}
+
+.item-details {
+  flex-grow: 1; /* Allow details to take remaining space */
+}
+
+.item-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+
+.item-description {
+  font-size: 1rem;
+  color: #555;
+  margin: 0 0 10px;
+}
+
+.item-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+}

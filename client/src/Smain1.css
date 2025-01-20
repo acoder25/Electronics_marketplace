@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+.head {
+  background-color: black;
+  color: wheat;
+  height: 10vh;
+  font-family: 'Pacifico', cursive;
+  display: flex; 
+  justify-content: center; /* Horizontally center the text */
+  align-items: center; /* Vertically center the text */
+  letter-spacing: 2px; /* Add spacing between letters */
+}
+
+
+
+.web-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  font-family: 'Pacifico', cursive;
+}
+
+.web-name i {
+  margin-right: 0.5rem;
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-items {
+  display: flex;
+  gap: 1rem;
+}
+
+.items {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.items:hover {
+  color: #ddd;
+}
+
+.items a {
+  color: #fff; /* Make the link white */
+  text-decoration: none; /* Remove underline */
+}
+
+.items a:hover {
+  color: #ddd; /* Change color on hover */
+}

@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  
+}
+.Seller {
+  background-color: rgb(159, 225, 139);
+  width: 50vh;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  height: 50vh;
+  float: right;
+  margin-right: 200px;
+  background-image: url('seller.jpg');
+  background-size: contain;  /* Ensure image covers the div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  position: relative;
+}
+.Seller p {
+  position: absolute; /* Allows positioning within the parent */
+  top: 5px; /* Adjust distance from the top */
+  left: 50%; /* Start at the center horizontally */
+  transform: translateX(-50%); /* Center text horizontally */
+  margin: 0; /* Remove default margin */
+  /* font-family: 'Lobster', cursive; */
+  font-weight: 600;
+}
+
+.Seller:hover {
+  transform: scale(1.05); /* Slightly enlarge the div */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Add depth with shadow */
+}
+
+.Seller:active {
+  transform: scale(0.95); /* Shrink slightly when clicked */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Lighter shadow on click */
+}
+
+.Buyer {
+  background-color: rgb(159, 225, 139);
+  width: 50vh;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  height: 50vh;
+  float: left;
+  margin-left: 200px;
+  background-image: url('buyer.jpg');
+  background-size: contain; /* Ensure image covers the div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  position: relative;
+}
+.Buyer p {
+  position: absolute; /* Allows positioning within the parent */
+  top: 7px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  margin: 0; 
+  font-weight:600;
+}
+.Buyer:hover {
+  transform: scale(1.05); /* Slightly enlarge the div */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Add depth with shadow */
+}
+
+.Buyer:active {
+  transform: scale(0.95); /* Shrink slightly when clicked */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Lighter shadow on click */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #6780b1;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 100px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

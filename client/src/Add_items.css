@@ -1,0 +1,119 @@
+/* PriceCalculator.css */
+
+.price-calculator-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* In App.css */
+.image-container {
+  width: 450px;
+  height: 350px;
+  overflow: hidden; 
+  margin-left: 80px;
+}
+
+.image {
+  width: 100%; 
+  height: auto;
+}
+
+.head {
+  background-color: black;
+  color: wheat;
+  height: 10vh;
+  font-family: 'Pacifico', cursive;
+  display: flex; 
+  justify-content: center; /* Horizontally center the text */
+  align-items: center; /* Vertically center the text */
+  letter-spacing: 2px; /* Add spacing between letters */
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.price-calculator-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  width:100%;
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+button.calculate-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+button.add{
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+
+button.calculate-button:hover {
+  background-color: #45a049;
+}
+
+.price-result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #eef9f1;
+  border-radius: 4px;
+  font-size: 18px;
+  text-align: center;
+  color: #2d6a4f;
+}
+.msg{
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #eef9f1;
+  border-radius: 4px;
+  font-size: 18px;
+  text-align: center;
+  color: #2d6a4f;
+}
